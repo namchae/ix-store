@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.kakaoix.store.product.ProductControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.kakaoix.store.product.ProductControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.kakaoix.store.product.html">com.kakaoix.store.product</a> &gt; ProductControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.073s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">삼품번호_조회</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">상품_등록</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">상품_삭제</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">상품리스트_조회</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2018-09-02 20:00:32.946  INFO 27909 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.kakaoix.store.product.ProductControllerTest], using SpringBootContextLoader
+2018-09-02 20:00:32.946  INFO 27909 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.kakaoix.store.product.ProductControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-09-02 20:00:32.947  INFO 27909 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.kakaoix.store.product.ProductControllerTest]: ProductControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-09-02 20:00:32.952  INFO 27909 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.kakaoix.store.IxOrderApplication for test class com.kakaoix.store.product.ProductControllerTest
+2018-09-02 20:00:32.954  INFO 27909 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-09-02 20:00:32.955  INFO 27909 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3dc72979, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@20cfd84a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4696c91c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@59f9e597, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5d718330, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3a20d5c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@738cea1d, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@65cf6ca6, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@34761b2c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@272d3813, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@33e5f2e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2dd1126f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@29fac382, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@67d99b0e]
+2018-09-02 20:00:32.964  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@4b680c17, testMethod = 상품리스트_조회@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@367994a9]; rollback [true]
+2018-09-02 20:00:32.965  INFO 27909 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-09-02 20:00:32.965  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-09-02 20:00:32.968  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 3 ms
+Hibernate: select product0_.prod_id as prod_id1_3_, product0_.created_at as created_2_3_, product0_.prod_image as prod_ima3_3_, product0_.prod_name as prod_nam4_3_, product0_.prod_price as prod_pri5_3_, product0_.prod_stock as prod_sto6_3_, product0_.update_at as update_a7_3_ from product product0_
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /products
+       Parameters = {}
+          Headers = {Content-Type=[application/json], Accept=[application/json]}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = com.kakaoix.store.product.ProductController
+           Method = public java.util.List&lt;com.kakaoix.store.product.domain.ProductDto$Response&gt; com.kakaoix.store.product.ProductController.list()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = [{&quot;productId&quot;:1,&quot;productName&quot;:&quot;리틀프랜즈 아스크림1&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBAPIRK0001_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:2,&quot;productName&quot;:&quot;리틀프랜즈 아스크림2&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBRYIRK0001_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:3,&quot;productName&quot;:&quot;리틀프랜즈 아스크림3&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBJGIRK0001_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:4,&quot;productName&quot;:&quot;리틀프랜즈 아스크림4&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBMZIRK0001_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:5,&quot;productName&quot;:&quot;플라잉전신키링 라이언&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBRYFBK0001_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:6,&quot;productName&quot;:&quot;플라잉전신키링 어퍼치&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBAPFBK0002_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:7,&quot;productName&quot;:&quot;플라잉전신키링 무지&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBMZFBK0003_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:8,&quot;productName&quot;:&quot;플라잉전신키링 튜브&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBTBFBK0004_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:9,&quot;productName&quot;:&quot;플라잉전신키링 네오&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBNOFBK0005_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:10,&quot;productName&quot;:&quot;플라잉전신키링 프로도&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBFDFBK0006_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10},{&quot;productId&quot;:11,&quot;productName&quot;:&quot;카드키체인인형 네오&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRBPNOCKR0001_AW_00.jpg&quot;,&quot;productPrice&quot;:12000,&quot;productStock&quot;:10},{&quot;productId&quot;:12,&quot;productName&quot;:&quot;카드키체인인형 튜브&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRBPTBCKR0001_AW_00.jpg&quot;,&quot;productPrice&quot;:12000,&quot;productStock&quot;:10}]
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-09-02 20:00:32.982  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@4b680c17, testMethod = 상품리스트_조회@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+2018-09-02 20:00:32.985  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@2fe6975d, testMethod = 삼품번호_조회@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@367994a9]; rollback [true]
+2018-09-02 20:00:32.986  INFO 27909 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-09-02 20:00:32.986  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-09-02 20:00:32.991  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 5 ms
+Hibernate: select product0_.prod_id as prod_id1_3_0_, product0_.created_at as created_2_3_0_, product0_.prod_image as prod_ima3_3_0_, product0_.prod_name as prod_nam4_3_0_, product0_.prod_price as prod_pri5_3_0_, product0_.prod_stock as prod_sto6_3_0_, product0_.update_at as update_a7_3_0_ from product product0_ where product0_.prod_id=?
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /products/3
+       Parameters = {}
+          Headers = {Content-Type=[application/json], Accept=[application/json]}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = com.kakaoix.store.product.ProductController
+           Method = public com.kakaoix.store.product.domain.ProductDto$Response com.kakaoix.store.product.ProductController.findById(java.lang.Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {&quot;productId&quot;:3,&quot;productName&quot;:&quot;리틀프랜즈 아스크림3&quot;,&quot;productImage&quot;:&quot;https://img1.daumcdn.net/thumb/R200x200/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ffriends%2Fprod%2Fproduct%2FFRPBJGIRK0001_AW_00.jpg&quot;,&quot;productPrice&quot;:8000,&quot;productStock&quot;:10}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-09-02 20:00:32.998  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@2fe6975d, testMethod = 삼품번호_조회@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+2018-09-02 20:00:32.999  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@57fdbd4f, testMethod = 상품_등록@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@367994a9]; rollback [true]
+2018-09-02 20:00:33.000  INFO 27909 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-09-02 20:00:33.001  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-09-02 20:00:33.005  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+Hibernate: select product0_.prod_id as prod_id1_3_, product0_.created_at as created_2_3_, product0_.prod_image as prod_ima3_3_, product0_.prod_name as prod_nam4_3_, product0_.prod_price as prod_pri5_3_, product0_.prod_stock as prod_sto6_3_, product0_.update_at as update_a7_3_ from product product0_ where product0_.prod_name=?
+Hibernate: insert into product (prod_id, created_at, prod_image, prod_name, prod_price, prod_stock, update_at) values (null, ?, ?, ?, ?, ?, ?)
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /products
+       Parameters = {}
+          Headers = {Content-Type=[application/json], Accept=[application/json]}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = com.kakaoix.store.product.ProductController
+           Method = public void com.kakaoix.store.product.ProductController.register(com.kakaoix.store.product.domain.ProductDto$Register)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 201
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-09-02 20:00:33.022  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@57fdbd4f, testMethod = 상품_등록@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+2018-09-02 20:00:33.024  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@72082037, testMethod = 상품_삭제@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@367994a9]; rollback [true]
+2018-09-02 20:00:33.026  INFO 27909 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-09-02 20:00:33.026  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-09-02 20:00:33.030  INFO 27909 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 4 ms
+Hibernate: select product0_.prod_id as prod_id1_3_0_, product0_.created_at as created_2_3_0_, product0_.prod_image as prod_ima3_3_0_, product0_.prod_name as prod_nam4_3_0_, product0_.prod_price as prod_pri5_3_0_, product0_.prod_stock as prod_sto6_3_0_, product0_.update_at as update_a7_3_0_ from product product0_ where product0_.prod_id=?
+
+MockHttpServletRequest:
+      HTTP Method = DELETE
+      Request URI = /products/1
+       Parameters = {}
+          Headers = {Content-Type=[application/json], Accept=[application/json]}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = com.kakaoix.store.product.ProductController
+           Method = public void com.kakaoix.store.product.ProductController.remove(java.lang.Long)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 204
+    Error message = null
+          Headers = {}
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+2018-09-02 20:00:33.039  INFO 27909 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@ae3b882 testClass = ProductControllerTest, testInstance = com.kakaoix.store.product.ProductControllerTest@72082037, testMethod = 상품_삭제@ProductControllerTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@1623c3ff testClass = ProductControllerTest, locations = '{}', classes = '{class com.kakaoix.store.IxOrderApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@78ef17aa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@dafe75c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1c4e9ddb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@60ae10dc], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true]]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.8.1</a> at 2018. 9. 2 오후 8:00:33</p>
+</div>
+</div>
+</body>
+</html>
